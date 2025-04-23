@@ -27,7 +27,7 @@ import com.example.listaedificacionecomposable.R
 
 
 @Composable
-fun EdificationCard(edification: Edificacion) {
+fun EdificacionCard(edification: Edificacion) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -57,5 +57,5 @@ fun EdificationCard(edification: Edificacion) {
 @Preview
 @Composable
 fun PreviewEdificationCard() {
-    EdificationCard(Edificacion("Monasterio de Santa Catalina", "Religioso", "Convento histórico en Arequipa", R.drawable.santa_catalina))
+    EdificacionCard(Edificacion("Monasterio de Santa Catalina", "Religioso", "Convento histórico en Arequipa", R.drawable.santa_catalina))
 }
